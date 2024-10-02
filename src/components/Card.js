@@ -4,6 +4,7 @@ import high from "../assets/Img - High Priority.svg";
 import medium from "../assets/Img - Medium Priority.svg";
 import low from "../assets/Img - Low Priority.svg";
 import urgent from "../assets/SVG - Urgent Priority grey.svg";
+import nopro from "../assets/No-priority.svg";
 import pfp from "../assets/maxmaxmax.jpg";
 
 const Card = ({ id, title, priority, user, status }) => {
@@ -14,7 +15,9 @@ const Card = ({ id, title, priority, user, status }) => {
       ? medium
       : priority === 3
       ? high
-      : urgent;
+      : priority === 4
+      ? urgent
+      : nopro;
   return (
     <div className="card">
       <p>{id}</p>

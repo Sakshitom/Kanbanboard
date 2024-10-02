@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Card from "./Card";
 import "./Board.css";
 import add from "../assets/add.svg";
@@ -43,14 +43,17 @@ const Board = ({ tickets }) => {
         return inprogress; // If no icon matches, return null
     }
   };
-  const number = tickets.length;
   return (
     <div className="board">
       {Object.keys(tickets).map((group) => (
         <div key={group} className="column">
           <div className="head">
             <div className="heading">
-              <img src={getGroupIcon(group)} className="group-icon" />
+              <img
+                src={getGroupIcon(group)}
+                alt="icon"
+                className="group-icon"
+              />
               <div>{group}</div>{" "}
               <div className="ticket-count">{tickets[group].length}</div>
             </div>
