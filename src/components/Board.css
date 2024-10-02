@@ -1,0 +1,31 @@
+.board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.heading {
+  display: flex;
+  width: 80%;
+}
+.group-icon {
+  padding-right: 5px;
+}
+.ticket-count {
+  padding-left: 5px;
+  color: gray;
+  font: bold;
+}
+.column {
+  width: 30%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h3 {
+  text-align: left;
+}

@@ -1,0 +1,51 @@
+.card {
+  background-color: white; /* Change background to light grey */
+  padding: 20px; /* More padding for better spacing */
+  margin-bottom: 15px;
+  border-radius: 8px; /* More rounded corners */
+  text-align: left;
+  font-family: Arial, sans-serif; /* Use a modern sans-serif font */
+  position: relative;
+  font-size: 14px;
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #5a5a5a; /* Light grey text color */
+}
+.priority-badge {
+  margin-right: 10px;
+}
+.priority-badge,
+.feature-request {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 10px;
+  border: 2px solid #f4f6fa;
+  color: gray;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  object-fit: cover;
+}
+
+.want {
+  display: flex;
+}
