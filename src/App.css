@@ -3,7 +3,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f4f6fa; /* Extend background color to entire page */
+  background-color: #f4f6fa;
 }
 .App {
   height: auto;

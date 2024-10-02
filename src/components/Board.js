@@ -40,7 +40,7 @@ const Board = ({ tickets }) => {
         return cancelled;
 
       default:
-        return inprogress; // If no icon matches, return null
+        return inprogress;
     }
   };
   return (
